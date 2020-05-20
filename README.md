@@ -1,6 +1,8 @@
 # Index DIY
 Supplementary materials for my PGCon Online 2020 talk "Index DIY".
 
+If you have a question and want a detailed answer - please create Issue in this repository.
+
 For large files I used [Yandex.Disk shared folder](https://yadi.sk/d/z9ZbSmp8mM1YSA).
 There you can find slides in pptx and pdf formats, some referenced papers and other stuff.
 
