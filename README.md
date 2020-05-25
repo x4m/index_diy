@@ -30,4 +30,6 @@ High modularity of many Index Access Methods like GiST allows to fork them into 
 
 Official documentation is the source of truth. Docs for pluggable index access methods can be found here https://www.postgresql.org/docs/current/indexam.html
 
+I'm not discussing [operator classes](https://www.postgresql.org/docs/current/sql-createopclass.html) in this talk. If ideas of core indexes suits your search well, probably, you should start with development of operator class.
+
 Thread about cache prefetches https://www.postgresql.org/message-id/flat/3B774C9E-01E8-46A7-9642-7830DC1108F1%40yandex-team.ru
