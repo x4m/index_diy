@@ -22,7 +22,9 @@ Method | Idea | Docs
 B-tree | Search among sorted objects | [docs](https://www.postgresql.org/docs/current/btree.html)
 GiST \ SP-GiST | Descending from group with generic features to specific | [docs](https://www.postgresql.org/docs/current/gist.html)
 GIN | Searching object by its part | [docs](https://www.postgresql.org/docs/current/gin-intro.html)
-HASH | Reducing search region to objects with same hash | [docs](https://www.postgresql.org/docs/current/hash.html)
+Hash | Reducing search region to objects with same hash | [docs](https://www.postgresql.org/docs/current/indexes-types.html)
+BRIN | Digesting groups of data to skip them during sequential search | [docs](https://www.postgresql.org/docs/current/brin-intro.html)
+Bloom | Digesting all data to skip search for non-existent values | [docs](https://www.postgresql.org/docs/current/bloom.html)
 
 
 
