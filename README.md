@@ -26,7 +26,7 @@ Hash | Reducing search region to objects with same hash | [docs](https://www.pos
 BRIN | Digesting groups of data to skip them during sequential search | [docs](https://www.postgresql.org/docs/current/brin-intro.html)
 Bloom | Digesting all data to skip search for non-existent values | [docs](https://www.postgresql.org/docs/current/bloom.html)
 
-
+High modularity of many Index Access Methods like GiST allows to fork them into extension.
 
 Official documentation is the source of truth. Docs for pluggable index access methods can be found here https://www.postgresql.org/docs/current/indexam.html
 
