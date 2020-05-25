@@ -19,7 +19,8 @@ Index Access Method is implementation of idea how to search.
 PostgreSQL has a lot of core index access methods:
 Method | Idea | Details
 --- | --- | ---
-B-tree | The idea is to search among sorted objects | ---
+B-tree | Search among sorted objects | [docs] (https://www.postgresql.org/docs/current/btree.html)
+GiST | Descending from group with generic features to specific | [docs] (https://www.postgresql.org/docs/current/gist.html)
 
 
 
