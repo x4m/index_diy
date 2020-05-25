@@ -10,9 +10,7 @@ There you can find slides in pptx and pdf formats, some referenced papers and ot
 ## About this talk
 This talk is about forking Index Access Methods from PostgreSQL core.
 
-```
-A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure.
-```
+```A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure.```
 [Wikipedia](https://en.wikipedia.org/wiki/Database_index)
 
 ![Entities](img/entities.png)
