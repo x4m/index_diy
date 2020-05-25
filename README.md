@@ -21,7 +21,8 @@ Method | Idea | Docs
 --- | --- | ---
 B-tree | Search among sorted objects | [docs](https://www.postgresql.org/docs/current/btree.html)
 GiST \ SP-GiST | Descending from group with generic features to specific | [docs](https://www.postgresql.org/docs/current/gist.html)
-GIN | Searching object by it's part | [docs](https://www.postgresql.org/docs/current/gin-intro.html)
+GIN | Searching object by its part | [docs](https://www.postgresql.org/docs/current/gin-intro.html)
+HASH | Reducing search region to objects with same hash | [docs](https://www.postgresql.org/docs/current/hash.html)
 
 
 
