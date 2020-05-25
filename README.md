@@ -17,10 +17,11 @@ This talk is about forking Index Access Methods from PostgreSQL core.
 
 Index Access Method is implementation of idea how to search.
 PostgreSQL has a lot of core index access methods:
-Method | Idea | Details
+Method | Idea | 
 --- | --- | ---
-B-tree | Search among sorted objects | [docs] (https://www.postgresql.org/docs/current/btree.html)
-GiST | Descending from group with generic features to specific | [docs] (https://www.postgresql.org/docs/current/gist.html)
+B-tree | Search among sorted objects | [docs](https://www.postgresql.org/docs/current/btree.html)
+GiST \ SP-GiST | Descending from group with generic features to specific | [docs](https://www.postgresql.org/docs/current/gist.html)
+GIN | Searching object by it's part | [docs](https://www.postgresql.org/docs/current/gin-intro.html)
 
 
 
