@@ -15,6 +15,12 @@ This talk is about forking Index Access Methods from PostgreSQL core.
 
 ![Entities](img/entities.png)
 
+Index Access Method is implementation of idea how to search.
+PostgreSQL has a lot of core index access methods:
+Method | Idea | Details
+--- | --- | ---
+B-tree | The idea is to search among sorted objects | ---
+
 
 
 Official documentation is the source of truth. Docs for pluggable index access methods can be found here https://www.postgresql.org/docs/current/indexam.html
