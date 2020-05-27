@@ -41,7 +41,7 @@ Interface of what index can and must do is well described in [amapi.h](https://g
  */
 typedef struct IndexAmRoutine
 {
-	NodeTag		type;
+	....
 
 	/*
 	 * Total number of strategies (operators) by which we can traverse/search
@@ -52,13 +52,13 @@ typedef struct IndexAmRoutine
 	uint16		amsupport;
 	/* opclass options support function number or 0 */
 	uint16		amoptsprocnum;
-	/* does AM support ORDER BY indexed column's value? */
+	/* does AM support ORDER BY indexed column's value? Only B-tree */
 	bool		amcanorder;
-	/* does AM support ORDER BY result of an operator on indexed column? */
+	/* does AM support ORDER BY result of an operator on indexed column? Only GiST and SP-GiST */
 	bool		amcanorderbyop;
-	/* does AM support backward scanning? */
+	/* does AM support backward scanning? Only B-tree and Hash */
 	bool		amcanbackward;
-	/* does AM support UNIQUE indexes? */
+	/* does AM support UNIQUE indexes? Only B-tree */
 	bool		amcanunique;
 	/* does AM support multi-column indexes? */
 	bool		amcanmulticol;
@@ -70,7 +70,7 @@ typedef struct IndexAmRoutine
 	bool		amsearchnulls;
 	/* can index storage data type differ from column data type? */
 	bool		amstorage;
-	/* can an index of this type be clustered on? */
+	/* can an index of this type be clustered on? Only GiST and B-tree */
 	bool		amclusterable;
 	/* does AM handle predicate locks? */
 	bool		ampredlocks;
