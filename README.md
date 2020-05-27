@@ -1,6 +1,5 @@
 # Index DIY
 Supplementary materials for my PGCon 2020 talk "Index DIY".
-Until May 27th this file is WIP. I'm still working on contents.
 
 If you have a question and want a detailed answer - please create Issue in this repository. Of course, I will answer all questions from IRC and live QA Zoom session too.
 
