@@ -112,3 +112,10 @@ typedef struct IndexAmRoutine
 	amparallelrescan_function amparallelrescan; /* can be NULL */
 } IndexAmRoutine;
 ```
+
+### Generic WAL limitations
+I did not say it clearly in talk. The only place where index-as-extension can be slower than core index is WAL usage.
+Core indexes use hand-crafted WAL write function. In generic WAL, instead, developer only points system to a buffer that was changed. And it's responsibility of a system to determine which bytes of a block changed. That's the main source of inefficiency.
+
+### Learned Indexes
+Learned Indexes is an interesting idea to generate searching data structure with machine learning. Unfortunately, proof of concept lacks many things to be an index in OLTP database. OLTP database is about changing data, with high level of concurrency and strict isolation guarantees.
